@@ -1,18 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
+using Microsoft.Playwright;
 
-IWebDriver driver = new ChromeDriver();
+using var playwright = await Playwright.CreateAsync();
+await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions { Headless = false });
+var page = await browser.NewPageAsync();
+
 try
 {
-    driver.Navigate().GoToUrl("https://practicetestautomation.com/practice-test-login/");
-    driver.FindElement(By.Id("username")).SendKeys("student");
-    driver.FindElement(By.Id("password")).SendKeys("Password123");
-    driver.FindElement(By.Id("submit")).Click();
+    await page.GotoAsync("https://practicetestautomation.com/practice-test-login/");
+    await page.FillAsync("#username", "student");
+    await page.FillAsync("#password", "Password123");
+    await page.ClickAsync("#submit");
     
     // Check for success message
-    var successElement = driver.FindElement(By.ClassName("post-title"));
-    if (successElement.Text.Contains("Logged In Successfully"))
+    var successText = await page.TextContentAsync(".post-title");
+    if (successText.Contains("Logged In Successfully"))
     {
         Console.WriteLine("Login test passed!");
     }
@@ -27,5 +29,5 @@ catch (Exception ex)
 }
 finally
 {
-    driver.Quit();
+    await browser.CloseAsync();
 }

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "c60mQ4xuLyY=",
+  "dgSpecHash": "bbos3zIFXe4=",
   "success": true,
   "projectFilePath": "C:\\Users\\ngrig\\Documents\\Automation\\LoginSystem\\LoginSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ngrig\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\ngrig\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\ngrig\\.nuget\\packages\\microsoft.playwright\\1.58.0\\microsoft.playwright.1.58.0.nupkg.sha512",
     "C:\\Users\\ngrig\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\2.0.2\\microsoft.testing.extensions.telemetry.2.0.2.nupkg.sha512",
     "C:\\Users\\ngrig\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\2.0.2\\microsoft.testing.extensions.trxreport.abstractions.2.0.2.nupkg.sha512",
     "C:\\Users\\ngrig\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\2.0.2\\microsoft.testing.extensions.vstestbridge.2.0.2.nupkg.sha512",
@@ -15,7 +17,8 @@
     "C:\\Users\\ngrig\\.nuget\\packages\\nunit\\4.5.1\\nunit.4.5.1.nupkg.sha512",
     "C:\\Users\\ngrig\\.nuget\\packages\\nunit3testadapter\\6.1.0\\nunit3testadapter.6.1.0.nupkg.sha512",
     "C:\\Users\\ngrig\\.nuget\\packages\\selenium.webdriver\\4.41.0\\selenium.webdriver.4.41.0.nupkg.sha512",
-    "C:\\Users\\ngrig\\.nuget\\packages\\selenium.webdriver.chromedriver\\145.0.7632.11700\\selenium.webdriver.chromedriver.145.0.7632.11700.nupkg.sha512"
+    "C:\\Users\\ngrig\\.nuget\\packages\\selenium.webdriver.chromedriver\\145.0.7632.11700\\selenium.webdriver.chromedriver.145.0.7632.11700.nupkg.sha512",
+    "C:\\Users\\ngrig\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
