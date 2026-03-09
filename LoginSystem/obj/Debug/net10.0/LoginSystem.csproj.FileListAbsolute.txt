@@ -1,0 +1,15 @@
+C:\Users\ngrig\Documents\Automation\LoginSystem\bin\Debug\net10.0\LoginSystem.exe
+C:\Users\ngrig\Documents\Automation\LoginSystem\bin\Debug\net10.0\LoginSystem.deps.json
+C:\Users\ngrig\Documents\Automation\LoginSystem\bin\Debug\net10.0\LoginSystem.runtimeconfig.json
+C:\Users\ngrig\Documents\Automation\LoginSystem\bin\Debug\net10.0\LoginSystem.dll
+C:\Users\ngrig\Documents\Automation\LoginSystem\bin\Debug\net10.0\LoginSystem.pdb
+C:\Users\ngrig\Documents\Automation\LoginSystem\obj\Debug\net10.0\LoginSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ngrig\Documents\Automation\LoginSystem\obj\Debug\net10.0\LoginSystem.AssemblyInfoInputs.cache
+C:\Users\ngrig\Documents\Automation\LoginSystem\obj\Debug\net10.0\LoginSystem.AssemblyInfo.cs
+C:\Users\ngrig\Documents\Automation\LoginSystem\obj\Debug\net10.0\LoginSystem.csproj.CoreCompileInputs.cache
+C:\Users\ngrig\Documents\Automation\LoginSystem\obj\Debug\net10.0\LoginSystem.sourcelink.json
+C:\Users\ngrig\Documents\Automation\LoginSystem\obj\Debug\net10.0\LoginSystem.dll
+C:\Users\ngrig\Documents\Automation\LoginSystem\obj\Debug\net10.0\refint\LoginSystem.dll
+C:\Users\ngrig\Documents\Automation\LoginSystem\obj\Debug\net10.0\LoginSystem.pdb
+C:\Users\ngrig\Documents\Automation\LoginSystem\obj\Debug\net10.0\LoginSystem.genruntimeconfig.cache
+C:\Users\ngrig\Documents\Automation\LoginSystem\obj\Debug\net10.0\ref\LoginSystem.dll
